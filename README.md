@@ -1,6 +1,6 @@
 # sedpy
 
-`sedpy` is a basic cross-platform alternative of `sed` built for easier and more flexible stream line editing.
+`sedpy` is a basic cross-platform alternative of `sed` built for easier and more flexible stream line editing across BSD and GNU systems.
 
 # What is sed and what is sedpy?
 
@@ -8,9 +8,9 @@ The `sed` command, short for stream editor, performs editing operations on text 
 
 This means that you make all of the editing decisions as you are calling the command, and sed executes the directions automatically. This may seem confusing or unintuitive, but it is a very powerful and fast way to transform text, especially as part of a script or automated workflow.
 
-The problem with `sed` is that it's not purely cross-platform and is quite complex to use. The `sedpy` project exactly tries to solve both these problems.
+The problem with `sed` is that it's not purely cross-platform. Linux uses GNU-based `sed` while macOS has the BSD version of `sed`.As a result - both have quite important sytnatic and usage difference. At the same time, `sed` though exteremly powerful is quite complex to use. 
 
-The `sedpy` project intially supports only stream text replacement. The future scope of the project is huge and requries continuous support from the open-source community.
+The `sedpy` project exactly tries to solve both these problems. The `sedpy` project intially supports only stream text replacement (supports regex). The future scope of the project is huge and requires continuous feedback and support from all of you amazing folks out there!
 
 ## Installation
 
@@ -26,7 +26,7 @@ The `sedpy` project intially supports only stream text replacement. The future s
 
         pip3 install -e .
 
-This should successfully instsall the `sedpy` cli package.
+This should successfully install the `sedpy` cli package.
 
 There's a script for Step 3. To use it:
 
@@ -56,5 +56,5 @@ Now when you open `test.txt`, file will now read as:
     7 + 6 = 13
 
 Thank you so much for having fun with this!
-More updates on the project and Documentation to follow soon. 
+More updates on the project and Documentation to follow soon.
 Stay Tuned!
