@@ -4,7 +4,6 @@
 [![GitHub issues](https://img.shields.io/github/issues/mritunjaysharma394/sedpy)](https://github.com/mritunjaysharma394/sedpy/issues)
 [![GitHub forks](https://img.shields.io/github/forks/mritunjaysharma394/sedpy?style=social)](https://github.com/mritunjaysharma394/sedpy/network)
 [![GitHub stars](https://img.shields.io/github/stars/mritunjaysharma394/sedpy?style=social)](https://github.com/mritunjaysharma394/sedpy/stargazers) 
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![PythonVersion](https://img.shields.io/badge/python-2.7%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)
 
 
