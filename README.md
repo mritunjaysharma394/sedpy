@@ -5,9 +5,10 @@
 [![GitHub forks](https://img.shields.io/github/forks/mritunjaysharma394/sedpy?style=social)](https://github.com/mritunjaysharma394/sedpy/network)
 [![GitHub stars](https://img.shields.io/github/stars/mritunjaysharma394/sedpy?style=social)](https://github.com/mritunjaysharma394/sedpy/stargazers) 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PythonVersion](https://img.shields.io/badge/python-2.7%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)
 
 
-`sedpy` is a basic cross-platform alternative of `sed` built for easier and more flexible stream line editing across BSD and GNU systems.
+`sedpy` is being built as a cross-platform alternative of [sed](https://www.gnu.org/software/sed/manual/sed.html) for easier and more flexible stream line editing across BSD and GNU systems.
 
 # What is sed and what is sedpy?
 
@@ -19,7 +20,14 @@ The problem with `sed` is that it's not purely cross-platform. Linux uses GNU-ba
 
 The `sedpy` project exactly tries to solve both these problems. The `sedpy` project intially supports only stream text replacement (supports regex). The future scope of the project is huge and requires continuous feedback and support from all of you amazing folks out there!
 
-## Installation
+## Quick Installation
+The easiest way to install sedpy is using PyPi `pip`: 
+
+    pip install sedpy
+           or
+    pip3 install sedpy 
+
+## Installation using Source:
 
 1. Clone the repo:
 
@@ -35,17 +43,15 @@ The `sedpy` project exactly tries to solve both these problems. The `sedpy` proj
 
 This should successfully install the `sedpy` cli package.
 
-There's a script for Step 3. To use it:
-
-Change the access rights of `install.sh`(Required only once):
-
-    sudo chmod a+x install.sh
-
-and Enter:
-
+As an alternative for Step 3, you can also use:
+    
     ./install.sh
 
-## How to use
+If `./install.sh` fails to work, try running it after changing it's access: 
+
+    $ sudo chmod a+x install.sh
+
+## How to use?
 
 The project comes with a `test.txt` file. We can play with it to learn
 about it's very basic usage:
@@ -62,6 +68,13 @@ Now when you open `test.txt`, file will now read as:
 
     7 + 6 = 13
 
-Thank you so much for having fun with this!
-More updates on the project and Documentation to follow soon.
+So you can observe that `sedpy` can be used as: 
+
+    sedpy "inital string" "string to replace it" "path to the file where changes have to be made"
+
+Thank you so much for having fun with this! This is just the inital release. More major updates on the cards :tada:
 Stay Tuned!
+
+##### Your contributions are welcome and highly appreciated. All you need to begin is to go through the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md)
+
+
