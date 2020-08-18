@@ -1,7 +1,7 @@
 from setuptools import setup
 
 # The text of the README file
-with open("README", 'r') as f:
+with open("README.md", 'r') as f:
     long_description = f.read()
 
 # This call to setup() does all the work
