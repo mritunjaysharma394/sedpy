@@ -1,4 +1,11 @@
-# sedpy [![Build Status](https://travis-ci.com/mritunjaysharma394/sedpy.svg?branch=master)](https://travis-ci.com/mritunjaysharma394/sedpy)
+# sedpy 
+[![Build Status](https://travis-ci.com/mritunjaysharma394/sedpy.svg?branch=master)](https://travis-ci.com/mritunjaysharma394/sedpy)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/mritunjaysharma394/sedpy/graphs/commit-activity) 
+[![GitHub issues](https://img.shields.io/github/issues/mritunjaysharma394/sedpy)](https://github.com/mritunjaysharma394/sedpy/issues)
+[![GitHub forks](https://img.shields.io/github/forks/mritunjaysharma394/sedpy?style=social)](https://github.com/mritunjaysharma394/sedpy/network)
+[![GitHub stars](https://img.shields.io/github/stars/mritunjaysharma394/sedpy?style=social)](https://github.com/mritunjaysharma394/sedpy/stargazers) 
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 
 `sedpy` is a basic cross-platform alternative of `sed` built for easier and more flexible stream line editing across BSD and GNU systems.
 
