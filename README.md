@@ -53,8 +53,7 @@ If `./install.sh` fails to work, try running it after changing it's access:
 
 ## How to use?
 
-The project comes with a `test.txt` file. We can play with it to learn
-about it's very basic usage:
+As a sample, you can download the [test.txt](https://raw.githubusercontent.com/mritunjaysharma394/sedpy/master/examples/test.txt) file. We can play with it to learn about it's very basic usage:
 
 The contents of `test.txt` file as of now reads:
 
