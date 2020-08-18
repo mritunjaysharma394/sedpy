@@ -1,4 +1,4 @@
-# sedpy
+# sedpy [![Build Status](https://travis-ci.com/mritunjaysharma394/sedpy.svg?branch=master)](https://travis-ci.com/mritunjaysharma394/sedpy)
 
 `sedpy` is a basic cross-platform alternative of `sed` built for easier and more flexible stream line editing across BSD and GNU systems.
 
