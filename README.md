@@ -63,6 +63,8 @@ We will use `sedpy` cli to change the '4' to '6' without opening the `test.txt` 
 
     sedpy "4" "6" test.txt
 
+**NOTE**: `test.txt` argument may differ according to the location where you have stored it.
+
 Now when you open `test.txt`, file will now read as:
 
     7 + 6 = 13
