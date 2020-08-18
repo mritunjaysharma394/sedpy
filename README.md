@@ -8,7 +8,7 @@
 [![PythonVersion](https://img.shields.io/badge/python-2.7%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8-blue)
 
 
-`sedpy` is being built as a cross-platform alternative of [sed](https://www.gnu.org/software/sed/manual/sed.html) for easier and more flexible stream line editing across BSD and GNU systems.
+`sedpy` is an open-source project being built as a cross-platform alternative of [sed](https://www.gnu.org/software/sed/manual/sed.html) for easier and more flexible stream line editing across BSD and GNU systems.
 
 # What is sed and what is sedpy?
 
@@ -25,7 +25,7 @@ The easiest way to install sedpy is using PyPi `pip`:
 
     pip install sedpy
            or
-    pip3 install sedpy 
+    pip3 install sedpy
 
 ## Installation using Source:
 
@@ -44,10 +44,10 @@ The easiest way to install sedpy is using PyPi `pip`:
 This should successfully install the `sedpy` cli package.
 
 As an alternative for Step 3, you can also use:
-    
+
     ./install.sh
 
-If `./install.sh` fails to work, try running it after changing it's access: 
+If `./install.sh` fails to work, try running it after changing it's access:
 
     $ sudo chmod a+x install.sh
 
@@ -69,13 +69,14 @@ Now when you open `test.txt`, file will now read as:
 
     7 + 6 = 13
 
-So you can observe that `sedpy` can be used as: 
+So you can observe that `sedpy` can be used as:
 
     sedpy "inital string" "string to replace it" "path to the file where changes have to be made"
 
 Thank you so much for having fun with this! This is just the inital release. More major updates on the cards :tada:
+
 Stay Tuned!
 
-##### Your contributions are welcome and highly appreciated. All you need to begin is to go through the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md)
+##### Your contributions are welcome and highly appreciated. All you need to begin is to go through the guidelines in [CONTRIBUTING.md](https://github.com/mritunjaysharma394/sedpy/blob/master/CONTRIBUTING.md)
 
 
