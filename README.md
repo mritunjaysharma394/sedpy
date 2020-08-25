@@ -15,9 +15,9 @@ The `sed` command, short for stream editor, performs editing operations on text 
 
 This means that you make all of the editing decisions as you are calling the command, and sed executes the directions automatically. This may seem confusing or unintuitive, but it is a very powerful and fast way to transform text, especially as part of a script or automated workflow.
 
-The problem with `sed` is that it's not purely cross-platform. Linux uses GNU-based `sed` while macOS has the BSD version of `sed`.As a result - both have quite important sytnatic and usage difference. At the same time, `sed` though exteremly powerful is quite complex to use. 
+The problem with `sed` is that it's not purely cross-platform. Linux uses GNU-based `sed` while macOS has the BSD version of `sed`.As a result - both have quite important syntactic and usage difference. At the same time, `sed`, though extremely powerful, is quite complex to use. 
 
-The `sedpy` project exactly tries to solve both these problems. The `sedpy` project intially supports only stream text replacement (supports regex). The future scope of the project is huge and requires continuous feedback and support from all of you amazing folks out there!
+The `sedpy` project tries to solve exactly both of these problems. The `sedpy` project initially supports only stream text replacement (supports regex). The future scope of the project is huge and requires continuous feedback and support from all of you amazing folks out there!
 
 ## Quick Installation
 The easiest way to install sedpy is using PyPi `pip`: 
@@ -70,12 +70,10 @@ Now when you open `test.txt`, file will now read as:
 
 So you can observe that `sedpy` can be used as:
 
-    sedpy "inital string" "string to replace it" "path to the file where changes have to be made"
+    sedpy "initial string" "string to replace it" "path to the file where changes have to be made"
 
-Thank you so much for having fun with this! This is just the inital release. More major updates on the cards :tada:
+Thank you so much for having fun with this! This is just the initial release. More major updates on the cards :tada:
 
 Stay Tuned!
 
 ##### Your contributions are welcome and highly appreciated. All you need to begin is to go through the guidelines in [CONTRIBUTING.md](https://github.com/mritunjaysharma394/sedpy/blob/master/CONTRIBUTING.md)
-
-
