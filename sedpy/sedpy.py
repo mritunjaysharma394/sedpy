@@ -14,7 +14,7 @@ def replace(oldstring, newstring, infile, dryrun=False):
             newitem = re.sub(oldstring, newstring,
                              item)  #String replacement taking place.
             linelist.append(newitem)
-    if dryrun == False:
+    if dryrun is False:
         with open(infile, "w") as f:
             f.truncate()
             for line in linelist:
