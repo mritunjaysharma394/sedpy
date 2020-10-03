@@ -1,5 +1,6 @@
 # sedpy 
 [![Build Status](https://travis-ci.com/mritunjaysharma394/sedpy.svg?branch=master)](https://travis-ci.com/mritunjaysharma394/sedpy)
+[![CodeFactor](https://www.codefactor.io/repository/github/mritunjaysharma394/sedpy/badge/master)](https://www.codefactor.io/repository/github/mritunjaysharma394/sedpy/overview/master)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/mritunjaysharma394/sedpy/graphs/commit-activity) 
 [![GitHub issues](https://img.shields.io/github/issues/mritunjaysharma394/sedpy)](https://github.com/mritunjaysharma394/sedpy/issues)
 [![GitHub forks](https://img.shields.io/github/forks/mritunjaysharma394/sedpy?style=social)](https://github.com/mritunjaysharma394/sedpy/network)
