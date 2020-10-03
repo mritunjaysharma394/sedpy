@@ -21,7 +21,7 @@ def replace(oldstring, newstring, infile, dryrun=False):
                 f.writelines(
                     line
                 )  #Dry Run False means it will not be displayed in STDOUT, File will change internally.
-    elif dryrun == True:
+    elif dryrun:
         for line in linelist:
             print(line, end='')  #Dry Run Shows the changes on STDOUT.
     else:
